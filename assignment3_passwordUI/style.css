@@ -1,0 +1,80 @@
+body{
+    background-color: darkgrey;
+}
+.generate{
+    width: 130px;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    background-color: lightgreen;
+    
+}
+
+
+.container{
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+}
+
+.header{
+    background-color: #308aad;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.password-area{
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+    padding: 20px;
+    display: flex;
+}
+.results{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding: 20px;
+    display: flex;
+}
+.save{
+    width: 130px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-left: 40%;
+    padding: 20px;
+    
+    background-color: lightgreen;
+    visibility: hidden;
+}
+.password-result{
+    margin: 30px;
+    padding-top: 3%;
+}
+.input-box{
+    margin: 30px;
+    padding-top: 3%;
+}
+.details{
+    margin-right: 30px;
+}
+.userList{
+    margin: 30%;
+   align-content: center;
+}
+table{
+    width: 100%;
+    border: 1px solid;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color: #135dcc;
+    color: white;
+    padding-top: 2%;
+}

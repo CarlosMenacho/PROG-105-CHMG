@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Password generator</h1>
+        </div>
+        <div class="password-area">
+            <div class="input-box">
+                <span class="details">Name account:</span>
+                <input class="input-text" type="text" placeholder="Enter name account" required>
+            </div>
+            <button class="generate" id="1">Generate Password</button>
+        </div>
+        <div class="results">
+            <div class="password-result">
+                <div class="show-pwd">
+                    <span class="data">Your new password:</span>
+                </div>
+                <button class="save" id="2" id="2">Save & copy</button>
+            </div>
+        </div>        
+        <div class="userList">
+            <table id="pwdTable">
+                <tr>
+                    <td>Name account</td>
+                    <td>Password</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">Copyright @ Carlos Menacho 2022</div>
+    </div>
+    <script src="password.js"></script>
+</body>
+</html>
