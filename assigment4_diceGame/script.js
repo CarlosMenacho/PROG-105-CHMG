@@ -50,13 +50,14 @@ function setNewGame(){
     player2_current.innerHTML = 0;
 
     actual_player = "player 1";
+    
     if(document.querySelector(".player--0").classList.contains("player--winner")){
         document.querySelector(".player--0").classList.remove("player--winner");
         document.querySelector(".player--0").classList.add("player--active");
     }
     if(document.querySelector(".player--1").classList.contains("player--winner")){
-        document.querySelector(".player--0").classList.remove("player--winner");
-        
+        document.querySelector(".player--1").classList.remove("player--winner");
+        document.querySelector(".player--1").classList.remove("player--active");
     }
 }
 
@@ -78,13 +79,13 @@ function holdFnc(){
 
 function checkWinner(){
     if(actual_player=="player 1"){
-        if(player1.total >=100){
+        if(player1.total >=20){
             document.querySelector(".player--0").classList.remove("player--active");
             document.querySelector(".player--0").classList.add("player--winner");
         }
     }
     else{
-        if(player2.total >=100){
+        if(player2.total >=20){
             document.querySelector(".player--1").classList.remove("player--active");
             document.querySelector(".player--1").classList.add("player--winner");
         }
